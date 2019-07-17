@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+header {
+	width: 880px;
+}
+
+nav {
+	display: inline-block;
+	width: 660px;
+	margin-top: 40px;
+	vertical-align: top;
+}
+
+header a {
+	display: inline-block;
+	width: 16.2%;
+	color: lightgray;
+	text-decoration: none;
+}
+
+img {
+	margin: 30px auto;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 75px;
+	/* stretch starts here
+	 changed the font size because the new font didn't fit with other font size */
+	font-family: 'Notable', cursive;
+  font-size: 60px;
+	/* stretch ends here */
+	margin: 85px 50px;
+	width: 44%;
+	text-align: center;
+	vertical-align: top;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25%;
+	padding: 5px 35px;
+	line-height: 1;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: left;
+}
+
+p {
+	text-align: left;
+}
+
+.logo {
+	  display: inline-block;
+		text-align: right;
+		width: 24.5%;
+}
+
+.header-img {
+	width: 43%;
+	text-align: right;
+}
+
+.top-content div {
+	width: 49.8%;
+	display:inline-block;
+}
+
+.bot-content div {
+	width: 33%;
+	display:inline-block;
+}
+
+footer {
+	text-align: center;
+	line-height: 1.1;
+}
+
+address {
+	text-align: left;
+}
+
+h6 {
+	font-size: 90%;
+}
